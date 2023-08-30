@@ -14,7 +14,7 @@
       <main id="aqui"></main>
       <script>
          var pic = new URLSearchParams(window.location.search).get('esta');
-         var url = "https://github.com/GabiVallejosB/DNO-y-Nuevos-Medios-Clase-4/tree/main/Imagenes/";
+         var url = "https://raw.githubusercontent.com/GabiVallejosB/DNO-y-Nuevos-Medios-Clase-4/main/Imagenes/";
          var img, detector;
 
          function preload(){
@@ -34,7 +34,7 @@
                noFill();
                rect(r.x,r.y,r.width,r.height);
                noStroke();
-               fill(255,0,245);
+               fill(255,0,0,245);
                textSize(24);
                text(r.label,  r.x+10, r.y+25);
             })
